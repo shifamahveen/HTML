@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: rgb(49, 71, 183);
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    width: 50%;
+    text-align: justify;
+    margin: auto 0;
+}

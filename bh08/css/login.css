@@ -1,0 +1,80 @@
+body{
+    background-color: darkmagenta;
+}
+
+section{
+    background-color: #fff;
+    width: 500px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+}
+
+div{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input{
+    display: block;
+    width: 90%;
+    padding: 5px;
+    margin: 15px;
+}
+
+button{
+    display: block;
+    background-color: purple;
+    color: white;
+    width: 90%;
+    border: 0;
+    margin: 10px;
+}
+
+p{
+    text-align: center;
+    padding: 15px;
+}
+
+form{
+    display: block;
+    padding: 0 auto;
+}
+
+h3{
+    /* margin: 10px 20px 30px 40px; */
+    margin-left: 30px;
+}
+
+/* box model */
+
+p{
+    /* For all 4 sides */
+    padding: 15px;  
+
+    /* 
+    first value is applied on y-axis (top and bottom)
+    second value is applied on x-axis (left and right)
+    */
+    padding: 10px 20px;
+
+    /* Values will be applied in order -> top, right, bottom, left */
+    padding: 10px 20px 30px 40px;
+
+    /* padding-right, padding-left, padding-top, padding-bottom */
+}

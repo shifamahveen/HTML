@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1, p{
+    color: blueviolet;
+    padding: 10px;
+}
+
+.sample {
+    font-size: 30px;
+    background-color: aquamarine;
+}
+
+#demo {
+    list-style-type: none; 
+}
+
+.sample, #demo {
+    border: 1px dashed red;
+}
+
+input {
+    border: 1px solid grey;
+}
+
+input[type=text]{
+    padding: 5px;
+}
+
+div[class=sample]{
+    color: brown;
+}
