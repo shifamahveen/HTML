@@ -5,11 +5,15 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding-left: 150px;
+    /* padding-left: 150px;
     padding-right: 150px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; */
+    padding: 0px 150px;
     border-bottom: 1px solid rgb(183, 179, 179);
+    background-color: blue;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 ul{
@@ -24,7 +28,7 @@ li{
 
 a{
     text-decoration: none;
-    color: brown
+    color: rgb(246, 242, 234);
 }
 
 h1{
@@ -57,4 +61,42 @@ button{
     color: antiquewhite;
     border: none;
     border-radius: 5px;
+}
+
+.home{
+    background-image: url("/images/school-bg.avif");
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home div{
+    /* text-align: center;
+    margin: auto; */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: brown;
+}
+
+.home button{
+    font-size: 20px;
+    padding: 10px;
+}
+
+span{
+    color: black;
+    font-style: italic;
+}
+
+.home span{
+    padding: 0 10px;
+}
+
+button:hover{
+    background-color: rgb(237, 56, 92);
+    cursor: pointer;
 }
