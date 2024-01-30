@@ -1,0 +1,21 @@
+h1{
+    background-color: aqua;
+    font-size: 30px; /* size of text */
+    text-align: justify; /*text alignment*/
+    font-weight: 200; /*bold*/
+}
+
+p{
+    color: white;
+    background-color: rgb(122, 122, 44);
+    text-align: justify;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic; 
+}
+
+button{
+    border-radius: 35px; /* smooth edges */
+}
