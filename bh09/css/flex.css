@@ -1,0 +1,11 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+
+section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start; /* space along x-axis */
+    align-items: stretch; /* space along y-axis */
+}
