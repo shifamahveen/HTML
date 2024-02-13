@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+nav{
+    background-color: rgba(35,47,62,255);
+    display: flex;
+    padding: 0px 100px;
+    /* margin: 0 100px; */
+    justify-content: space-between;
+    align-items: center;  /* adjust elements through y axis */
+    box-shadow: 2px 2px 40px grey; /* horizontal vertical blur color */
+    font-family: 'Protest Riot', sans-serif;
+    background-image: linear-gradient(to top, rgba(35,47,62,255), grey);
+    /* background-image: url('../images/bg.jpeg'); */
+}
+
+ul{
+    display: flex;
+    color: white;
+    list-style-type: none;
+}
+
+li{
+    margin: 10px;
+}
+
+button{
+    background-color: rgb(115, 122, 159);
+    color: white;
+    border-radius: 35px;
+    height: 40px;
+    padding: 10px 20px;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+section{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.575), rgba(197, 193, 193, 0.566)), url('../images/bg.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+p{
+    text-align: center;
+    padding-top: 200px;
+}

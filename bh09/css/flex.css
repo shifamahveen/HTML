@@ -1,11 +1,12 @@
 div{
-    width: 200px;
+    width: 25%;
     height: 200px;
+    margin: 0 20px;
 }
 
 section {
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-start; /* space along x-axis */
-    align-items: stretch; /* space along y-axis */
+    flex-direction: row;
+    justify-content: center; /* space along x-axis */
+    align-items: center; /* space along y-axis */
 }

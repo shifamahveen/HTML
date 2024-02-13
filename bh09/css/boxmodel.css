@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: rgba(35,47,62,255);
+    padding: 0 100px;
+}
+
+li{
+    list-style-type: none;
+    color: white;
+    margin: 5px;
+}
+
+ul{
+    display: flex;
+}
+
+li:last-of-type{
+    background-color: blue;
+}

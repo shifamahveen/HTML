@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    background-image: linear-gradient(gray, black);
+    color: white;
+    box-shadow: 2px 2px 15px gray;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    padding: 0 5px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
