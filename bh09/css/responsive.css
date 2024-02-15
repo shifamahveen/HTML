@@ -14,6 +14,8 @@
         img{
             border-radius: 50%;
             box-shadow: 1px 0 15px rgb(202, 199, 199);
+            width: 150px;
+            height: 150px;
         }
         p{
             font-style: italic;
@@ -35,14 +37,23 @@
         width: 80%;
         margin: 10px 0;
     }
+    
+    img{
+        width: 100px;
+        height: 100px;
+    }
 }
 @media (min-width: 500px) and (max-width: 768px){
     section{
         padding: 0 20px;
     }
+    img{
+        width: 100px;
+        height: 100px;
+    }
 }
 @media (min-width: 769px) and (max-width: 900px){
     section{
-        padding: 0 20px;
+        padding: 0 50px;
     }
 }
